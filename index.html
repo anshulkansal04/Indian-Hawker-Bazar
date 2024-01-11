@@ -1,20 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indian Hawker Bazar</title>
-</head>
-<body>
-    <div id="mainpage">
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://kit.fontawesome.com/3bc8e24f41.js"></script>
+  <link rel="stylesheet" href="/Customer/style.css">
+  <link rel="stylesheet" href="/Login/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="header">
+    <a href="index.html"><img src="/Customer/img/logo1.png" class="logo" alt=""></a>
+
+    <div>
+      <ul id="navbar">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="/Login/blog.html">Blog</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Contact</a>
+          <div class="dropdown-content">
+            <p>Phone: <br>+91 9996103246</p>
+            <p>Email: saarthihelp@gmail.com</p>
+            <p>Address: Jaypee Institute Of Information Tecgnology,Noida,Uttar Pradesh</p>
+          </div>
+        </li>
+        <li><a href="/Login/about.html">About</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="carscl section-p1">
+    <div class="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+
+        </div>
+        <div class="carousel-item">
+
+        </div>
+        <div class="carousel-item">
+
+        </div>
+        <div class="carousel-item">
+
+        </div>
+        <div class="carousel-item">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="regcl">
+    <div class="cont">
+      <div class="form sign-in">
+        <h2>Member Registration</h2>
+        <label>
+          <span>Name</span>
+          <input type="text">
+        </label>
+        <label>
+          <span>Phone Number</span>
+          <input type="email">
+        </label>
+        <label>
+          <span>Password</span>
+          <input type="password">
+        </label>
+        <label>
+          <span>Confirm Password</span>
+          <input type="password">
+        </label>
+        <button type="button" class="submit" onclick="window.location.href='/Customer/index.html'">Sign Up Now</button>
+      </div>
+
+      <div class="sub-cont">
+        <div class="img">
+          <div class="img-text m-up">
+            <h1>New here?</h1>
+            <p>Start Your Journey Here</p>
+          </div>
+          <div class="img-text m-in">
+            <h1>New here?</h1>
+            <p>Grow Your Business with Us</p>
+          </div>
+          <div class="img-btn">
+            <span class="m-up">Vendor</span>
+            <span class="m-in">Customer</span>
+          </div>
+        </div>
+
+
+        <div class="form sign-up">
+          <h2>Vendor Registration</h2>
+          <label>
+            <span>Name</span>
+            <input type="text">
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email">
+          </label>
+          <label>
+            <span>Password</span>
+            <input type="password">
+          </label>
+          <label>
+            <span>Confirm Password</span>
+            <input type="password">
+          </label>
+
+          <button type="button" class="submit" onclick="window.location.href='/Hawker/indexproject.html'">Sign Up Now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="section-p1 footer-col">
+    <div class="col">
+      <img src="/Customer/img/logo1.png" alt="Saarthi" class="footer-logo">
+      <h4>Contact Us</h4>
+      <p class="footer-para"><strong>Address: </strong>Jaypee Institute Of Information Tecgnology,
+        Noida,Uttar Pradesh</p>
+      <p class="footer-para"><strong>Phone: </strong> +91 9996103246/ +91 7267990338</p>
+      <p class="footer-para"><strong>Email:</strong> saarthihelp@gmail.com </p>
+    </div>
+    <div class="col">
+      <h4>About</h4>
+      <a href="/Login/about.html">About Us</a>
+      <a href="#">Delivery Option</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+      <a href="#">Contact Us</a>
     </div>
 
-    <script>
-        $(function()
-        {
-            $("#mainpage").load("Login/index.html");
-        });
-    </script>
+    <div class="col">
+      <h4>My Account</h4>
+      <a href="#">Sign In</a>
+      <a href="#">View Cart</a>
+      <a href="#">My Wishlist</a>
+      <a href="#">Track My Order</a>
+      <a href="#">Help</a>
+    </div>
+
+    <div class="col install">
+      <h4 class="footer-para">Install App</h4>
+      <p class="footer-para">From App Store or Google Play</p>
+      <div class="row">
+        <img src="/Customer/img/pay/app.jpg" alt="Get From App Store">
+        <img src="/Customer/img/pay/play.jpg" alt="Get From Play Store">
+      </div>
+      <p class="footer-para">Secured Payment Gateways</p>
+      <img src="/Customer/img/pay/pay.png" alt="Secured Payment Gateways">
+    </div>
+    <div class="copyright">
+      <p>&copy; 2023-Present, Saarthi Team</p>
+    </div>
+  </footer>
+  <script src="/Login/index.js"></script>
 </body>
+
 </html>
